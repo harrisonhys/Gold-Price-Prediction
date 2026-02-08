@@ -1,0 +1,9 @@
+Gunakan Notebook Python untuk melakukan analissi data
+
+Prediksi Harga Emas dengan Model Hybrid CNN-LSTM Berbasis Deep Learning
+
+Jenis penelitian: Pengembangan dan evaluasi model deep learning
+Isi penelitian:
+Gunakan CNN-LSTM untuk menangkap pola kompleks dalam data time-series.
+Uji dengan cross-validation dan hyperparameter tuning.
+Bandingkan dengan model klasik (mis. Linear Regression, ARIMA).
