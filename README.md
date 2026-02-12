@@ -4,7 +4,7 @@
 
 ## Deskripsi
 
-Penelitian ini mengeksplorasi berbagai pendekatan komputasional dalam memprediksi pergerakan harga emas, sebuah komoditas strategis yang memiliki peran penting dalam sistem ekonomi global. Melalui implementasi beberapa arsitektur model pembelajaran mesin dan pembelajaran mendalam, proyek ini bertujuan untuk memberikan wawasan mengenai efektivitas berbagai teknik prediksi dalam konteks data time series finansial.
+Penelitian ini mengeksplorasi berbagai pendekatan komputasional dalam memprediksi pergerakan harga emas, sebuah komoditas strategis yang memiliki peran penting dalam sistem ekonomi global. Melalui implementasi beberapa arsitektur model pembelajaran mesin, proyek ini bertujuan untuk memberikan wawasan mengenai efektivitas berbagai teknik prediksi dalam konteks data time series finansial.
 
 Harga emas dikenal sebagai instrumen yang kompleks dan dipengaruhi oleh berbagai faktor ekonomi makro, volatilitas pasar, dan sentimen investor. Oleh karena itu, pemodelan yang akurat memerlukan pendekatan yang mampu menangkap pola temporal, volatilitas, dan non-linearitas yang inheren dalam data tersebut.
 
@@ -19,7 +19,6 @@ Pendekatan ini mengkombinasikan kekuatan Convolutional Neural Network (CNN) dala
 
 **Komponen utama:**
 - Notebook implementasi lengkap (`gold_price_prediction.ipynb`)
-- Artikel jurnal dengan analisis mendalam (`Journal_Article_CNN_LSTM.md`)
 - Spesifikasi dependensi (`requirements.txt`)
 
 ### 2. GARCH-ML untuk Pemodelan Volatilitas
@@ -46,7 +45,7 @@ Dataset yang digunakan dalam penelitian ini (`gold_price_forecasting_dataset.csv
 
 **Sumber Data:** [Gold Price Forecasting Dataset](https://www.kaggle.com/datasets/vishardmehta/gold-price-forecasting-dataset/data) oleh Vishard Mehta, tersedia di Kaggle.
 
-Dataset ini menyediakan informasi komprehensif yang memungkinkan analisis mendalam terhadap faktor-faktor yang mempengaruhi pergerakan harga emas. Kami mengucapkan terima kasih kepada penyedia dataset atas kontribusinya dalam mendukung riset berbasis data terbuka.
+Dataset ini menyediakan informasi komprehensif yang memungkinkan analisis terhadap faktor-faktor yang mempengaruhi pergerakan harga emas. Kami mengucapkan terima kasih kepada penyedia dataset atas kontribusinya dalam mendukung riset berbasis data terbuka.
 
 ## Struktur Direktori
 
@@ -120,7 +119,7 @@ Navigasi ke notebook yang diinginkan dan jalankan sel-sel secara berurutan.
 Setiap pendekatan menghasilkan insight unik mengenai prediksi harga emas:
 
 - **CNN-LSTM** menunjukkan kemampuan dalam menangkap pola kompleks melalui ekstraksi fitur hierarkis
-- **GARCH-ML** memberikan pemahaman mendalam tentang dinamika volatilitas dan aplikasinya dalam strategi investasi
+- **GARCH-ML** memberikan pemahaman tentang dinamika volatilitas dan aplikasinya dalam strategi investasi
 - **GWO-LSTM** mendemonstrasikan efektivitas optimasi metaheuristik dalam meningkatkan performa model
 
 Dokumentasi lengkap mengenai hasil eksperimen, evaluasi model, dan analisis komparatif tersedia dalam artikel jurnal di masing-masing direktori.
